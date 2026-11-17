@@ -13,4 +13,4 @@ def test_aluno_mostra_variacao_da_dupla():
     assert resposta.status_code == 200
     dados = resposta.get_json()
     assert dados["dupla"] == NOME_DUPLA
-    assert dados["mensagem"] == MENSAGEM
+    assert dados["mensagem"] == MENSAGE

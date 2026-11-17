@@ -13,7 +13,7 @@ app = Flask(__name__)
  
 @app.route("/saude") 
 def saude(): 
-    return jsonify(status="erro", versao=VERSAO) 
+    return jsonify(status="OK", versao=VERSAO) 
  
  
 @app.route("/aluno") 
